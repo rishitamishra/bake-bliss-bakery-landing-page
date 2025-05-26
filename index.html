@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bake & Bliss</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+
+  <header class="bg-white p-4 shadow">
+    <div class="max-w-4xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-2 cursor-default">
+        <span class="text-3xl">🧁</span>
+        <h1 class="text-2xl font-bold text-pink-600 select-none">Bake & Bliss</h1>
+      </div>
+      <nav class="space-x-6 text-sm font-semibold">
+        <a href="#home" class="text-pink-700 hover:text-pink-500 hover:underline hover:scale-105 transition transform duration-200">Home</a>
+        <a href="#menu" class="text-pink-700 hover:text-pink-500 hover:underline hover:scale-105 transition transform duration-200">Menu</a>
+        <a href="#contact" class="text-pink-700 hover:text-pink-500 hover:underline hover:scale-105 transition transform duration-200">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section id="home" class="py-12 px-4 text-center">
+    <h2 class="text-3xl font-bold text-pink-700">Welcome to Bake & Bliss</h2>
+    <p class="mt-2 text-gray-700">Delicious homemade cakes and sweets made with love!</p>
+    <a href="#menu"
+       class="mt-4 inline-block bg-pink-500 text-white px-6 py-2 rounded
+              hover:bg-pink-600 hover:shadow-lg hover:scale-105 transition transform duration-200">
+      View Menu
+    </a>
+  </section>
+
+
+  <section id="menu" class="py-12 px-4 bg-white">
+    <h3 class="text-2xl font-bold text-center text-pink-700 mb-6">Our Menu</h3>
+    <div class="max-w-4xl mx-auto grid gap-6 md:grid-cols-3">
+      <div
+        class="bg-pink-100 p-4 rounded cursor-pointer
+               hover:bg-pink-200 hover:shadow-md hover:scale-[1.03] transition transform duration-200">
+        <h4 class="text-lg font-semibold text-pink-800">Strawberry Cake 🍓</h4>
+        <p class="text-sm mt-1">Soft cake with fresh strawberries and cream.</p>
+      </div>
+      <div
+        class="bg-pink-100 p-4 rounded cursor-pointer
+               hover:bg-pink-200 hover:shadow-md hover:scale-[1.03] transition transform duration-200">
+        <h4 class="text-lg font-semibold text-pink-800">Chocolate Muffin 🍫</h4>
+        <p class="text-sm mt-1">Rich and moist muffins filled with chocolate chips.</p>
+      </div>
+      <div
+        class="bg-pink-100 p-4 rounded cursor-pointer
+               hover:bg-pink-200 hover:shadow-md hover:scale-[1.03] transition transform duration-200">
+        <h4 class="text-lg font-semibold text-pink-800">Cupcakes 🧁</h4>
+        <p class="text-sm mt-1">Cute little cupcakes with creamy toppings.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-12 px-4 text-center bg-pink-100">
+    <h3 class="text-2xl font-bold text-pink-700 mb-4">Contact Us</h3>
+    <p>
+      Email:
+      <a href="mailto:hello@bakeandbliss.com"
+         class="text-pink-600 underline hover:text-pink-500 hover:scale-105 transition transform duration-200 inline-block">
+        hello@bakeandbliss.com
+      </a>
+    </p>
+    <p>
+      Instagram:
+      <a href="https://instagram.com/bakeandbliss" target="_blank"
+         class="text-pink-600 underline hover:text-pink-500 hover:scale-105 transition transform duration-200 inline-block">
+        @bakeandbliss
+      </a>
+    </p>
+    <p>
+      Twitter:
+      <a href="https://twitter.com/bakeandbliss" target="_blank"
+         class="text-pink-600 underline hover:text-pink-500 hover:scale-105 transition transform duration-200 inline-block">
+        @bakeandbliss
+      </a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center p-4 text-sm text-gray-600">
+    <p>&copy; 2025 Bake & Bliss. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
